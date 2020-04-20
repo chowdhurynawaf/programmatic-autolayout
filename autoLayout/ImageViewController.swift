@@ -30,8 +30,8 @@ class ImageViewController: UIViewController {
         
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = text
-        label.backgroundColor = .yellow
         label.textAlignment = .center
+        label.backgroundColor = .yellow
         
         return label
     }
@@ -99,8 +99,8 @@ class ImageViewController: UIViewController {
     
     @objc func buttonAction(sender: UIButton!) {
         print("Button tapped")
-        let storyboard = UIStoryboard(name: "Image", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "imageVC")
+        let storyboard = UIStoryboard(name: "spacing", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "spacingVC")
         self.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true)
     }
