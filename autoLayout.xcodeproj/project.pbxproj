@@ -20,6 +20,8 @@
 		42BFF634244B249D003E190F /* SpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFF633244B249D003E190F /* SpacingViewController.swift */; };
 		42CBE4752445ACA7009BA4BA /* Intrinsic_content_size.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CBE4742445ACA7009BA4BA /* Intrinsic_content_size.storyboard */; };
 		42CBE4772445ACF2009BA4BA /* Intrinsic_content_sizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBE4762445ACF2009BA4BA /* Intrinsic_content_sizeViewController.swift */; };
+		42F9EB122450C3FC007E312D /* StackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F9EB112450C3FC007E312D /* StackViewViewController.swift */; };
+		42F9EB142450C40D007E312D /* StackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F9EB132450C40D007E312D /* StackView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		42BFF633244B249D003E190F /* SpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingViewController.swift; sourceTree = "<group>"; };
 		42CBE4742445ACA7009BA4BA /* Intrinsic_content_size.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intrinsic_content_size.storyboard; sourceTree = "<group>"; };
 		42CBE4762445ACF2009BA4BA /* Intrinsic_content_sizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intrinsic_content_sizeViewController.swift; sourceTree = "<group>"; };
+		42F9EB112450C3FC007E312D /* StackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewViewController.swift; sourceTree = "<group>"; };
+		42F9EB132450C40D007E312D /* StackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StackView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				42BFF633244B249D003E190F /* SpacingViewController.swift */,
 				42B7F47A244D433B007073F6 /* ReadableContent.storyboard */,
 				42B7F47C244D4352007073F6 /* ReadableContentViewController.swift */,
+				42F9EB112450C3FC007E312D /* StackViewViewController.swift */,
+				42F9EB132450C40D007E312D /* StackView.storyboard */,
 				42818F9D2444B12D002CB2AB /* Assets.xcassets */,
 				42818F9F2444B12D002CB2AB /* LaunchScreen.storyboard */,
 				42818FA22444B12D002CB2AB /* Info.plist */,
@@ -152,6 +158,7 @@
 				42B7F47B244D433B007073F6 /* ReadableContent.storyboard in Resources */,
 				42818F9E2444B12D002CB2AB /* Assets.xcassets in Resources */,
 				42818F9C2444B12B002CB2AB /* Main.storyboard in Resources */,
+				42F9EB142450C40D007E312D /* StackView.storyboard in Resources */,
 				423AB9592448BA7D00385FAB /* Image.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +175,7 @@
 				42818F992444B12B002CB2AB /* ViewController.swift in Sources */,
 				42BFF634244B249D003E190F /* SpacingViewController.swift in Sources */,
 				423AB95B2448BA9100385FAB /* ImageViewController.swift in Sources */,
+				42F9EB122450C3FC007E312D /* StackViewViewController.swift in Sources */,
 				42818F972444B12B002CB2AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
