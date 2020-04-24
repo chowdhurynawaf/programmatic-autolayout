@@ -21,14 +21,7 @@ class StackViewViewController: UIViewController {
 
     func setUPViews(){
        
-        
-            
-            
-            
-            //padding
-            stackView.isLayoutMarginsRelativeArrangement = true
-            stackView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
-            
+       
         }
     }
-}
+
